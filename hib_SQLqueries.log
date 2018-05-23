@@ -1,0 +1,1211 @@
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration boolean -> org.hibernate.type.BooleanType@22eeefeb
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration boolean -> org.hibernate.type.BooleanType@22eeefeb
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@22eeefeb
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@365185bd
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration true_false -> org.hibernate.type.TrueFalseType@25bbf683
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration yes_no -> org.hibernate.type.YesNoType@544a2ea6
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration byte -> org.hibernate.type.ByteType@704d6e83
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration byte -> org.hibernate.type.ByteType@704d6e83
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@704d6e83
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration character -> org.hibernate.type.CharacterType@706a04ae
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration char -> org.hibernate.type.CharacterType@706a04ae
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@706a04ae
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration short -> org.hibernate.type.ShortType@954b04f
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration short -> org.hibernate.type.ShortType@954b04f
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@954b04f
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration integer -> org.hibernate.type.IntegerType@78186a70
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration int -> org.hibernate.type.IntegerType@78186a70
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@78186a70
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration long -> org.hibernate.type.LongType@24a35978
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration long -> org.hibernate.type.LongType@24a35978
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Long -> org.hibernate.type.LongType@24a35978
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration float -> org.hibernate.type.FloatType@5204062d
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration float -> org.hibernate.type.FloatType@5204062d
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5204062d
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration double -> org.hibernate.type.DoubleType@b3d7190
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration double -> org.hibernate.type.DoubleType@b3d7190
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@b3d7190
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@24b1d79b
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@24b1d79b
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@103f852
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@103f852
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration string -> org.hibernate.type.StringType@6d3af739
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.String -> org.hibernate.type.StringType@6d3af739
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@71623278
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4b53f538
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration url -> org.hibernate.type.UrlType@1068e947
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.net.URL -> org.hibernate.type.UrlType@1068e947
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration Duration -> org.hibernate.type.DurationType@6483f5ae
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6483f5ae
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration Instant -> org.hibernate.type.InstantType@2473b9ce
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2473b9ce
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@71d15f18
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@71d15f18
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2df32bf7
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2df32bf7
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@70a9f84e
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@70a9f84e
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@166fa74d
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@166fa74d
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@77a57272
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@77a57272
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@49c43f4e
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@49c43f4e
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration date -> org.hibernate.type.DateType@11c20519
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Date -> org.hibernate.type.DateType@11c20519
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration time -> org.hibernate.type.TimeType@365c30cc
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@365c30cc
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration timestamp -> org.hibernate.type.TimestampType@71a794e5
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@71a794e5
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@71a794e5
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4df828d7
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration calendar -> org.hibernate.type.CalendarType@31206beb
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@31206beb
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@31206beb
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@23bb8443
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration locale -> org.hibernate.type.LocaleType@1372ed45
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1372ed45
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration currency -> org.hibernate.type.CurrencyType@5606c0b
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5606c0b
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration timezone -> org.hibernate.type.TimeZoneType@12405818
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@12405818
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration class -> org.hibernate.type.ClassType@453da22c
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@453da22c
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6e38921c
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6e38921c
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@49070868
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration binary -> org.hibernate.type.BinaryType@146044d7
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration byte[] -> org.hibernate.type.BinaryType@146044d7
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration [B -> org.hibernate.type.BinaryType@146044d7
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3c0a50da
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3c0a50da
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3c0a50da
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration row_version -> org.hibernate.type.RowVersionType@221af3c0
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration image -> org.hibernate.type.ImageType@551bdc27
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration characters -> org.hibernate.type.CharArrayType@ba8d91c
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration char[] -> org.hibernate.type.CharArrayType@ba8d91c
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration [C -> org.hibernate.type.CharArrayType@ba8d91c
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6a472554
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6a472554
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6a472554
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration text -> org.hibernate.type.TextType@61d47554
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration ntext -> org.hibernate.type.NTextType@5a4aa2f2
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration blob -> org.hibernate.type.BlobType@564718df
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@564718df
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@62e136d3
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration clob -> org.hibernate.type.ClobType@2ea6137
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@2ea6137
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration nclob -> org.hibernate.type.NClobType@29f69090
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@29f69090
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@589b3632
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@534df152
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration serializable -> org.hibernate.type.SerializableType@2890c451
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration object -> org.hibernate.type.ObjectType@20d3d15a
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@20d3d15a
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2c34f934
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@12d3a4e9
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@240237d2
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@25a65b77
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2ed0fbae
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@212bf671
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@14a2f921
+23 maj 2018 21:37:25 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3c87521
+23 maj 2018 21:37:26 [TRACE] [org.hibernate.type.TypeFactory:58] Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@6f7923a5
+23 maj 2018 21:37:26 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table coaches 
+        drop 
+        foreign key FK_TEAM
+23 maj 2018 21:37:27 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table matches 
+        drop 
+        foreign key FK_guests
+23 maj 2018 21:37:27 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table players 
+        drop 
+        foreign key FK_position
+23 maj 2018 21:37:27 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table players 
+        drop 
+        foreign key FK_team
+23 maj 2018 21:37:27 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table statistics 
+        drop 
+        foreign key FK_match
+23 maj 2018 21:37:27 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table statistics 
+        drop 
+        foreign key FK_Type
+23 maj 2018 21:37:27 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table teams 
+        drop 
+        foreign key FK_coach
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists arenas
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists coaches
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists hibernate_sequences
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists matches
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists players
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists positions
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists statistics
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists statisticsType
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists teams
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table arenas (
+        id integer not null auto_increment,
+        address varchar(255),
+        name varchar(255),
+        primary key (id)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table coaches (
+        person_id integer not null,
+        lastname varchar(255),
+        name varchar(255),
+        team_id integer,
+        primary key (person_id)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table hibernate_sequences (
+        sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table matches (
+        id integer not null auto_increment,
+        date datetime,
+        match_id integer,
+        primary key (id)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table players (
+        person_id integer not null,
+        lastname varchar(255),
+        name varchar(255),
+        position_id integer,
+        team_id integer,
+        primary key (person_id)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table positions (
+        position_id integer not null auto_increment,
+        name varchar(255),
+        primary key (position_id)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table statistics (
+        statistic_id integer not null auto_increment,
+        value integer not null,
+        match_id integer,
+        statisticType_id integer,
+        primary key (statistic_id)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table statisticsType (
+        ststisticType_id integer not null auto_increment,
+        description varchar(255),
+        primary key (ststisticType_id)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:28 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table teams (
+        team_id integer not null auto_increment,
+        name varchar(255),
+        person_id integer,
+        primary key (team_id)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:29 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table coaches 
+        add constraint FK_TEAM 
+        foreign key (team_id) 
+        references teams (team_id)
+23 maj 2018 21:37:29 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table matches 
+        add constraint FK_guests 
+        foreign key (match_id) 
+        references teams (team_id)
+23 maj 2018 21:37:29 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table players 
+        add constraint FK_position 
+        foreign key (position_id) 
+        references positions (position_id)
+23 maj 2018 21:37:29 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table players 
+        add constraint FK_team 
+        foreign key (team_id) 
+        references teams (team_id)
+23 maj 2018 21:37:29 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table statistics 
+        add constraint FK_match 
+        foreign key (match_id) 
+        references matches (id)
+23 maj 2018 21:37:29 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table statistics 
+        add constraint FK_Type 
+        foreign key (statisticType_id) 
+        references statisticsType (ststisticType_id)
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table teams 
+        add constraint FK_coach 
+        foreign key (person_id) 
+        references coaches (person_id)
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        positions
+        (name) 
+    values
+        (?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [bramkarz]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        positions
+        (name) 
+    values
+        (?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [obrońca]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        positions
+        (name) 
+    values
+        (?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [pomocnik]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        positions
+        (name) 
+    values
+        (?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [napastnik]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        hibernate_sequences
+        (sequence_name, next_val)  
+    values
+        (?,?)
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        teams
+        (person_id, name) 
+    values
+        (?, ?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:53] binding parameter [1] as [INTEGER] - [null]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [LKS Baterex Nędza]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        coaches
+        (lastname, name, team_id, person_id) 
+    values
+        (?, ?, ?, ?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [Henzel]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Marek]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [1]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [1]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        players
+        (lastname, name, position_id, team_id, person_id) 
+    values
+        (?, ?, ?, ?, ?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [Skwirut]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Mateusz]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [1]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [1]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [5] as [INTEGER] - [2]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        players
+        (lastname, name, position_id, team_id, person_id) 
+    values
+        (?, ?, ?, ?, ?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [Maślanka]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Szymon]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [3]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [1]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [5] as [INTEGER] - [3]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        players
+        (lastname, name, position_id, team_id, person_id) 
+    values
+        (?, ?, ?, ?, ?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [Paskuda]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Szymon]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [2]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [1]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [5] as [INTEGER] - [4]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        players
+        (lastname, name, position_id, team_id, person_id) 
+    values
+        (?, ?, ?, ?, ?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [Sobik]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Denis]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [4]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [1]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [5] as [INTEGER] - [5]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        teams 
+    set
+        person_id=?,
+        name=? 
+    where
+        team_id=?
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [INTEGER] - [1]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [LKS Baterex Nędza]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [1]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        teams
+        (person_id, name) 
+    values
+        (?, ?)
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:53] binding parameter [1] as [INTEGER] - [null]
+23 maj 2018 21:37:30 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [LKS Tęcza Wielowieś]
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+23 maj 2018 21:37:30 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        hibernate_sequences 
+    set
+        next_val=?  
+    where
+        next_val=? 
+        and sequence_name=?
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        coaches
+        (lastname, name, team_id, person_id) 
+    values
+        (?, ?, ?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [Żaba]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Piotr]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [6]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        players
+        (lastname, name, position_id, team_id, person_id) 
+    values
+        (?, ?, ?, ?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [Musioł]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Tomasz]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [5] as [INTEGER] - [7]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        players
+        (lastname, name, position_id, team_id, person_id) 
+    values
+        (?, ?, ?, ?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [Gała]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Wojciech]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [3]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [5] as [INTEGER] - [8]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        players
+        (lastname, name, position_id, team_id, person_id) 
+    values
+        (?, ?, ?, ?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [osman]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Daniel]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [5] as [INTEGER] - [9]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        players
+        (lastname, name, position_id, team_id, person_id) 
+    values
+        (?, ?, ?, ?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [Burda]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [Marcin]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [4]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [4] as [INTEGER] - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [5] as [INTEGER] - [10]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    update
+        teams 
+    set
+        person_id=?,
+        name=? 
+    where
+        team_id=?
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [INTEGER] - [6]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [LKS Tęcza Wielowieś]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [2]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        matches
+        (date, match_id) 
+    values
+        (?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:53] binding parameter [1] as [TIMESTAMP] - [null]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [INTEGER] - [2]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        statistics
+        (match_id, statisticType_id, value) 
+    values
+        (?, ?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [INTEGER] - [10]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:53] binding parameter [2] as [INTEGER] - [null]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [4]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        statistics
+        (match_id, statisticType_id, value) 
+    values
+        (?, ?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [INTEGER] - [10]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:53] binding parameter [2] as [INTEGER] - [null]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [2]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        statistics
+        (match_id, statisticType_id, value) 
+    values
+        (?, ?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [INTEGER] - [10]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:53] binding parameter [2] as [INTEGER] - [null]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [3] as [INTEGER] - [5]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    insert 
+    into
+        arenas
+        (address, name) 
+    values
+        (?, ?)
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [1] as [VARCHAR] - [kkkkkk]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicBinder:65] binding parameter [2] as [VARCHAR] - [GOSIR]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        person0_.person_id as person_i1_3_,
+        person0_.lastname as lastname2_3_,
+        person0_.name as name3_3_,
+        person0_.team_id as team_id1_1_,
+        person0_.position_id as position1_4_,
+        person0_.team_id as team_id2_4_,
+        person0_.clazz_ as clazz_ 
+    from
+        ( select
+            person_id,
+            lastname,
+            name,
+            team_id,
+            null as position_id,
+            1 as clazz_ 
+        from
+            coaches 
+        union
+        select
+            person_id,
+            lastname,
+            name,
+            team_id,
+            position_id,
+            2 as clazz_ 
+        from
+            players 
+    ) person0_
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Henzel]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Marek]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id1_1_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [6]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [?aba]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Piotr]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id1_1_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Skwirut]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Mateusz]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [3]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Ma?lanka]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Szymon]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [3]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [4]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Paskuda]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Szymon]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [5]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Sobik]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Denis]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [4]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [7]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Musio?]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Tomasz]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [8]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Ga?a]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Wojciech]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [3]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [9]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [osman]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Daniel]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [10]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Burda]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Marcin]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [4]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        person0_.person_id as person_i1_3_,
+        person0_.lastname as lastname2_3_,
+        person0_.name as name3_3_,
+        person0_.team_id as team_id1_1_,
+        person0_.position_id as position1_4_,
+        person0_.team_id as team_id2_4_,
+        person0_.clazz_ as clazz_ 
+    from
+        ( select
+            person_id,
+            lastname,
+            name,
+            team_id,
+            null as position_id,
+            1 as clazz_ 
+        from
+            coaches 
+        union
+        select
+            person_id,
+            lastname,
+            name,
+            team_id,
+            position_id,
+            2 as clazz_ 
+        from
+            players 
+    ) person0_
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Henzel]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Marek]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id1_1_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [6]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [?aba]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Piotr]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id1_1_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Skwirut]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Mateusz]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [3]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Ma?lanka]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Szymon]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [3]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [4]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Paskuda]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Szymon]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [5]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Sobik]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Denis]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [4]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [7]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Musio?]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Tomasz]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [1]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [8]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Ga?a]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Wojciech]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [3]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [9]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [osman]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Daniel]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([person_i1_3_] : [INTEGER]) - [10]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([clazz_] : [INTEGER]) - [2]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([lastname2_3_] : [VARCHAR]) - [Burda]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([name3_3_] : [VARCHAR]) - [Marcin]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([position1_4_] : [INTEGER]) - [4]
+23 maj 2018 21:37:31 [TRACE] [org.hibernate.type.descriptor.sql.BasicExtractor:61] extracted value ([team_id2_4_] : [INTEGER]) - [2]
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration boolean -> org.hibernate.type.BooleanType@22eeefeb
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration boolean -> org.hibernate.type.BooleanType@22eeefeb
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@22eeefeb
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@365185bd
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration true_false -> org.hibernate.type.TrueFalseType@25bbf683
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration yes_no -> org.hibernate.type.YesNoType@544a2ea6
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration byte -> org.hibernate.type.ByteType@704d6e83
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration byte -> org.hibernate.type.ByteType@704d6e83
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@704d6e83
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration character -> org.hibernate.type.CharacterType@706a04ae
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration char -> org.hibernate.type.CharacterType@706a04ae
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@706a04ae
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration short -> org.hibernate.type.ShortType@954b04f
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration short -> org.hibernate.type.ShortType@954b04f
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@954b04f
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration integer -> org.hibernate.type.IntegerType@78186a70
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration int -> org.hibernate.type.IntegerType@78186a70
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@78186a70
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration long -> org.hibernate.type.LongType@24a35978
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration long -> org.hibernate.type.LongType@24a35978
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Long -> org.hibernate.type.LongType@24a35978
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration float -> org.hibernate.type.FloatType@5204062d
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration float -> org.hibernate.type.FloatType@5204062d
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5204062d
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration double -> org.hibernate.type.DoubleType@b3d7190
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration double -> org.hibernate.type.DoubleType@b3d7190
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@b3d7190
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@24b1d79b
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@24b1d79b
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@103f852
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@103f852
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration string -> org.hibernate.type.StringType@6d3af739
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.String -> org.hibernate.type.StringType@6d3af739
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@71623278
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4b53f538
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration url -> org.hibernate.type.UrlType@1068e947
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.net.URL -> org.hibernate.type.UrlType@1068e947
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration Duration -> org.hibernate.type.DurationType@6483f5ae
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6483f5ae
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration Instant -> org.hibernate.type.InstantType@2473b9ce
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2473b9ce
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@71d15f18
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@71d15f18
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2df32bf7
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2df32bf7
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@70a9f84e
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@70a9f84e
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@166fa74d
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@166fa74d
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@77a57272
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@77a57272
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@49c43f4e
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@49c43f4e
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration date -> org.hibernate.type.DateType@11c20519
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Date -> org.hibernate.type.DateType@11c20519
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration time -> org.hibernate.type.TimeType@365c30cc
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@365c30cc
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration timestamp -> org.hibernate.type.TimestampType@71a794e5
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@71a794e5
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@71a794e5
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4df828d7
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration calendar -> org.hibernate.type.CalendarType@31206beb
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@31206beb
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@31206beb
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@23bb8443
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration locale -> org.hibernate.type.LocaleType@1372ed45
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1372ed45
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration currency -> org.hibernate.type.CurrencyType@5606c0b
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5606c0b
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration timezone -> org.hibernate.type.TimeZoneType@12405818
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@12405818
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration class -> org.hibernate.type.ClassType@453da22c
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@453da22c
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6e38921c
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6e38921c
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@49070868
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration binary -> org.hibernate.type.BinaryType@146044d7
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration byte[] -> org.hibernate.type.BinaryType@146044d7
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration [B -> org.hibernate.type.BinaryType@146044d7
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3c0a50da
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3c0a50da
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3c0a50da
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration row_version -> org.hibernate.type.RowVersionType@221af3c0
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration image -> org.hibernate.type.ImageType@551bdc27
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration characters -> org.hibernate.type.CharArrayType@ba8d91c
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration char[] -> org.hibernate.type.CharArrayType@ba8d91c
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration [C -> org.hibernate.type.CharArrayType@ba8d91c
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6a472554
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6a472554
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6a472554
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration text -> org.hibernate.type.TextType@61d47554
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration ntext -> org.hibernate.type.NTextType@5a4aa2f2
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration blob -> org.hibernate.type.BlobType@564718df
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@564718df
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@62e136d3
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration clob -> org.hibernate.type.ClobType@2ea6137
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@2ea6137
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration nclob -> org.hibernate.type.NClobType@29f69090
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@29f69090
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@589b3632
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@534df152
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration serializable -> org.hibernate.type.SerializableType@2890c451
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration object -> org.hibernate.type.ObjectType@20d3d15a
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@20d3d15a
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@301aa982
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5fc930f0
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3701e6e4
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@c6634d
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@65f58c6e
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@73ad7e90
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4ba380c7
+23 maj 2018 21:37:32 [DEBUG] [org.hibernate.type.BasicTypeRegistry:145] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@784c5ef5
+23 maj 2018 21:37:33 [TRACE] [org.hibernate.type.TypeFactory:58] Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@25da615a
+23 maj 2018 21:37:33 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Coaches 
+        drop 
+        foreign key FK_team
+23 maj 2018 21:37:33 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Matches 
+        drop 
+        foreign key FK_team_g
+23 maj 2018 21:37:33 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Matches 
+        drop 
+        foreign key FK_team_h
+23 maj 2018 21:37:33 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Players 
+        drop 
+        foreign key FK_players
+23 maj 2018 21:37:33 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Players 
+        drop 
+        foreign key FK_pos
+23 maj 2018 21:37:33 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Statistics 
+        drop 
+        foreign key FK2qyliqhja59v49q5ih0ya3ccw
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Statistics 
+        drop 
+        foreign key FK_statistics
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Teams 
+        drop 
+        foreign key FK_coach
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists Arenas
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists Coaches
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists Matches
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists Persons
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists Players
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists Positions
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists Statistics
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists StatisticType
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    drop table if exists Teams
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table Arenas (
+        ID integer not null auto_increment,
+        name varchar(255),
+        surname varchar(255),
+        primary key (ID)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:34 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table Coaches (
+        ID integer not null auto_increment,
+        name varchar(255),
+        lastname varchar(255),
+        team integer,
+        primary key (ID)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table Matches (
+        ID integer not null auto_increment,
+        Date datetime,
+        guests integer not null,
+        host integer not null,
+        primary key (ID)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table Persons (
+        ID integer not null auto_increment,
+        name varchar(255),
+        lastname varchar(255),
+        primary key (ID)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table Players (
+        ID integer not null auto_increment,
+        name varchar(255),
+        lastname varchar(255),
+        team integer,
+        position integer,
+        primary key (ID)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table Positions (
+        ID integer not null auto_increment,
+        name varchar(255),
+        primary key (ID)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table Statistics (
+        ID integer not null auto_increment,
+        value integer,
+        type integer,
+        match_id integer,
+        primary key (ID)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table StatisticType (
+        ID integer not null auto_increment,
+        description varchar(255),
+        primary key (ID)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    create table Teams (
+        ID integer not null auto_increment,
+        name varchar(255),
+        coach integer,
+        primary key (ID)
+    ) ENGINE=InnoDB
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Coaches 
+        add constraint UK_g8kdtkk2liqepa6uosqkjb1g1 unique (team)
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Matches 
+        add constraint UK_g5wc0hnkw2ynfm6ifv1uuuqa unique (guests)
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Matches 
+        add constraint UK_kifrd2bxen2em4tvqj82a3nm8 unique (host)
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Players 
+        add constraint UK_jg8q68dqcrlde9ra07qyjduco unique (team)
+23 maj 2018 21:37:35 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Players 
+        add constraint UK_mev3vh89k8gy5x1s8o2k84aws unique (position)
+23 maj 2018 21:37:36 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Statistics 
+        add constraint UK_l2l43mvtdtpy0ub84051pi0y1 unique (type)
+23 maj 2018 21:37:36 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Teams 
+        add constraint UK_ekkf46ggg0t9vmh6ndchac0eq unique (coach)
+23 maj 2018 21:37:36 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Coaches 
+        add constraint FK_team 
+        foreign key (team) 
+        references Teams (ID)
+23 maj 2018 21:37:36 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Matches 
+        add constraint FK_team_g 
+        foreign key (guests) 
+        references Teams (ID)
+23 maj 2018 21:37:36 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Matches 
+        add constraint FK_team_h 
+        foreign key (host) 
+        references Teams (ID)
+23 maj 2018 21:37:36 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Players 
+        add constraint FK_players 
+        foreign key (team) 
+        references Teams (ID)
+23 maj 2018 21:37:37 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Players 
+        add constraint FK_pos 
+        foreign key (position) 
+        references Positions (ID)
+23 maj 2018 21:37:37 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Statistics 
+        add constraint FK2qyliqhja59v49q5ih0ya3ccw 
+        foreign key (type) 
+        references StatisticType (ID)
+23 maj 2018 21:37:37 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Statistics 
+        add constraint FK_statistics 
+        foreign key (match_id) 
+        references Matches (ID)
+23 maj 2018 21:37:37 [DEBUG] [org.hibernate.SQL:92] 
+    
+    alter table Teams 
+        add constraint FK_coach 
+        foreign key (coach) 
+        references Coaches (ID)
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.SQL:92] 
+    select
+        statistic0_.ID as col_0_0_,
+        statistic0_.value as col_1_0_,
+        statistic0_.ID as ID1_6_,
+        statistic0_.value as value2_6_,
+        statistic0_.type as type3_6_ 
+    from
+        Statistics statistic0_

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD
+3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="model.Coach" table="Coaches">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="name" />
+        </property>
+        <property name="lastname" type="java.lang.String">
+            <column name="lastname" />
+        </property>
+
+       <many-to-one name="team" class="model.Team" column="team" unique="true"
+                    foreign-key="FK_team"   cascade="all" >
+
+        </many-to-one>
+    </class>
+</hibernate-mapping>

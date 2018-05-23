@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD
+3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="model.Match" table="Matches">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="date" type="java.util.GregorianCalendar">
+            <column name="Date" />
+        </property>
+
+        <set inverse="true" lazy="true" name="statistics" >
+            <key foreign-key="FK_statistics">
+                <column name="match_id"/>
+            </key>
+            <one-to-many class="model.Statistic" />
+        </set>
+
+        <many-to-one name="guests" class="model.Team" column="guests" unique="true" not-null="true"
+        cascade="all" foreign-key="FK_team_g">
+        </many-to-one>
+        <many-to-one name="host" class="model.Team"  column="host" unique="true" not-null="true"
+        cascade="all" foreign-key="FK_team_h">
+         </many-to-one>
+
+
+    </class>
+</hibernate-mapping>

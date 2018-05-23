@@ -1,0 +1,113 @@
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:45] QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@4acf72b6
+23 maj 2018 21:37:31 [INFO ] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:278] parse() - HQL: select generatedAlias0 from model.Person as generatedAlias0
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:296] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[IDENT] Node: 'model'
+       |     |  \-[IDENT] Node: 'Person'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.ErrorCounter:95] throwQueryException() : no errors
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:124] select << begin [level=1, statement=select]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.tree.FromElement:148] FromClause{level=1} : model.Person (generatedAlias0) -> person0_
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0 -> person0_.person_id
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:128] select : finishing up [level=1, statement=select]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.HqlSqlWalker:725] processQuery() :  ( SELECT ( {select clause} person0_.person_id ) ( FromClause{level=1} ( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ) person0_ ) )
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.util.JoinProcessor:169] Using FROM fragment [( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ) person0_]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:132] select >> end [level=1, statement=select]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:265] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (coaches,persons,players)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'person0_.person_id as person_i1_3_' {alias=generatedAlias0, className=model.Person, tableAlias=person0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'person0_.lastname as lastname2_3_, person0_.name as name3_3_, person0_.team_id as team_id1_1_, person0_.position_id as position1_4_, person0_.team_id as team_id2_4_, person0_.clazz_ as clazz_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[person0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: '( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ) person0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ),tableAlias=person0_,origin=null,columns={,className=model.Person}}
+
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.ErrorCounter:95] throwQueryException() : no errors
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:247] HQL: select generatedAlias0 from model.Person as generatedAlias0
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:248] SQL: select person0_.person_id as person_i1_3_, person0_.lastname as lastname2_3_, person0_.name as name3_3_, person0_.team_id as team_id1_1_, person0_.position_id as position1_4_, person0_.team_id as team_id2_4_, person0_.clazz_ as clazz_ from ( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ) person0_
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.ErrorCounter:95] throwQueryException() : no errors
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:278] parse() - HQL: From model.Person
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:296] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'From'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[IDENT] Node: 'model'
+                \-[IDENT] Node: 'Person'
+
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.ErrorCounter:95] throwQueryException() : no errors
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:124] select << begin [level=1, statement=select]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.tree.FromElement:148] FromClause{level=1} : model.Person (<no alias>) -> person0_
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:128] select : finishing up [level=1, statement=select]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.HqlSqlWalker:725] processQuery() :  ( SELECT ( FromClause{level=1} ( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ) person0_ ) )
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.HqlSqlWalker:1001] Derived SELECT clause created.
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.util.JoinProcessor:169] Using FROM fragment [( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ) person0_]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:132] select >> end [level=1, statement=select]
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:265] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (coaches,persons,players)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'person0_.person_id as person_i1_3_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ),tableAlias=person0_,origin=null,columns={,className=model.Person}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'person0_.lastname as lastname2_3_, person0_.name as name3_3_, person0_.team_id as team_id1_1_, person0_.position_id as position1_4_, person0_.team_id as team_id2_4_, person0_.clazz_ as clazz_'
+    \-[FROM] FromClause: 'From' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[person0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: '( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ) person0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ),tableAlias=person0_,origin=null,columns={,className=model.Person}}
+
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.ErrorCounter:95] throwQueryException() : no errors
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:247] HQL: From model.Person
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:248] SQL: select person0_.person_id as person_i1_3_, person0_.lastname as lastname2_3_, person0_.name as name3_3_, person0_.team_id as team_id1_1_, person0_.position_id as position1_4_, person0_.team_id as team_id2_4_, person0_.clazz_ as clazz_ from ( select person_id, lastname, name, team_id, null as position_id, 1 as clazz_ from coaches union select person_id, lastname, name, team_id, position_id, 2 as clazz_ from players ) person0_
+23 maj 2018 21:37:31 [DEBUG] [org.hibernate.hql.internal.ast.ErrorCounter:95] throwQueryException() : no errors
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:45] QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@4acf72b6
+23 maj 2018 21:37:38 [INFO ] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:47] HHH000397: Using ASTQueryTranslatorFactory
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:278] parse() - HQL: select generatedAlias0, generatedAlias0.value from model.Statistic as generatedAlias0
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:296] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[IDENT] Node: 'model'
+       |     |  \-[IDENT] Node: 'Statistic'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          +-[IDENT] Node: 'generatedAlias0'
+          \-[DOT] Node: '.'
+             +-[IDENT] Node: 'generatedAlias0'
+             \-[IDENT] Node: 'value'
+
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.ErrorCounter:95] throwQueryException() : no errors
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:124] select << begin [level=1, statement=select]
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.tree.FromElement:148] FromClause{level=1} : model.Statistic (generatedAlias0) -> statistic0_
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0 -> statistic0_.ID
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0 -> statistic0_.ID
+23 maj 2018 21:37:38 [TRACE] [org.hibernate.hql.internal.ast.tree.FromElement:665] Handling property dereference [model.Statistic (generatedAlias0) -> value (class)]
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.tree.DotNode:661] getDataType() : value -> org.hibernate.type.IntegerType@78186a70
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0.value -> statistic0_.value
+23 maj 2018 21:37:38 [TRACE] [org.hibernate.hql.internal.ast.tree.FromElement:665] Handling property dereference [model.Statistic (generatedAlias0) -> value (class)]
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:128] select : finishing up [level=1, statement=select]
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.HqlSqlWalker:725] processQuery() :  ( SELECT ( {select clause} statistic0_.ID ( statistic0_.value statistic0_.ID value ) ) ( FromClause{level=1} Statistics statistic0_ ) )
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.util.JoinProcessor:169] Using FROM fragment [Statistics statistic0_]
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:132] select >> end [level=1, statement=select]
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:265] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Statistics)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'statistic0_.ID as col_0_0_' {alias=generatedAlias0, className=model.Statistic, tableAlias=statistic0_}
+    |  +-[DOT] DotNode: 'statistic0_.value' {propertyName=value,dereferenceType=PRIMITIVE,getPropertyPath=value,path=generatedAlias0.value,tableAlias=statistic0_,className=model.Statistic,classAlias=generatedAlias0}
+    |  |  +-[ALIAS_REF] IdentNode: 'statistic0_.ID' {alias=generatedAlias0, className=model.Statistic, tableAlias=statistic0_}
+    |  |  \-[IDENT] IdentNode: 'value' {originalText=value}
+    |  +-[SELECT_COLUMNS] SqlNode: ' as col_1_0_'
+    |  +-[SQL_TOKEN] SqlFragment: 'statistic0_.ID as ID1_6_'
+    |  \-[SQL_TOKEN] SqlFragment: 'statistic0_.value as value2_6_, statistic0_.type as type3_6_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[statistic0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'Statistics statistic0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Statistics,tableAlias=statistic0_,origin=null,columns={,className=model.Statistic}}
+
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.ErrorCounter:95] throwQueryException() : no errors
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:247] HQL: select generatedAlias0, generatedAlias0.value from model.Statistic as generatedAlias0
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:248] SQL: select statistic0_.ID as col_0_0_, statistic0_.value as col_1_0_, statistic0_.ID as ID1_6_, statistic0_.value as value2_6_, statistic0_.type as type3_6_ from Statistics statistic0_
+23 maj 2018 21:37:38 [DEBUG] [org.hibernate.hql.internal.ast.ErrorCounter:95] throwQueryException() : no errors
