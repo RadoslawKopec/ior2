@@ -46,8 +46,9 @@ public final class MainApp {
         showAllPlayersHQL();
         showPeopleBySurnameCrit("s%");
         showPeopleBySurnameCrit("m%");
+        showJointHQL();
         
-        showGoalsCrit();
+        showJoinCrit();
     }
 
   public static void showAllPlayersCrit(){
@@ -83,7 +84,7 @@ public final class MainApp {
         
         Collection<Tuple> result = em.createQuery(criteria).getResultList();
         
-        System.out.println("***\n");
+        System.out.println("***\nCriterial");
         
         for(Tuple t : result){
             System.out.println(t.get(0)+" "+t.get(1));
@@ -91,10 +92,10 @@ public final class MainApp {
         em.close();
     }
 public static void showPeopleBySurname(String cond){
-    EntityManager em = EMBuilder.getEM();
+    EntityManager em = SESSION_FACTORY.createEntityManager();
         List<Tuple> result = em.createQuery("SELECT p, Position FROM Person p WHERE p.lastname LIKE '"+cond+"'", Tuple.class).getResultList();
        
-        System.out.println("***\n");
+        System.out.println("***\nHQL");
 
         for(Tuple t : result){
             System.out.println(t.get(0)+" "+t.get(1));
@@ -104,21 +105,47 @@ public static void showPeopleBySurname(String cond){
     
 }   
 
-public static void showGoalsCrit(){
-    
-        EntityManager em = EMBuilder.getEM();
+public static void showJoinCrit(){
+        System.out.println("***\n Criterial");
+        
+        EntityManager em = SESSION_FACTORY.createEntityManager();
+        
         CriteriaBuilder builder = em.getCriteriaBuilder();
         CriteriaQuery<Tuple> criteria = builder.createTupleQuery();
-        Root<Statistic> root = criteria.from(Statistic.class);
-      
-        criteria.select(builder.tuple(root,root.get("value")));//, builder.count(root.get("value"))));
-        //criteria.groupBy(root.get("type"));
+        Root<Team> root = criteria.from(Team.class);
+        Join<Team, Player> pozycje = root.join("players");
+        criteria.select(builder.tuple(root.get("name"), builder.count(pozycje)));
+        criteria.groupBy(root.get("name"));
         List<Tuple> result = em.createQuery(criteria).getResultList();
         for(Tuple t : result){
-            System.out.println(t.get(0)+"ilosc: "+t.get(1));
+            System.out.println(t.get(0)+"\n\tilosc graczy: "+t.get(1));
+        }
+        em.close();
+    
+//        EntityManager em = SESSION_FACTORY.createEntityManager();
+//        
+//        CriteriaBuilder builder = em.getCriteriaBuilder();
+//        CriteriaQuery<Tuple> criteria = builder.createTupleQuery();
+//        Root<Player> root = criteria.from(Player.class);
+//        Join<Player, Position> pozycje = root.join("position");
+//        criteria.select(builder.tuple(root.get("position"), builder.count(pozycje)));
+//        criteria.groupBy(root.get("position"),root.get("lastname"),pozycje,pozycje.get("name"));
+//        List<Tuple> result = em.createQuery(criteria).getResultList();
+//        for(Tuple t : result){
+//            System.out.println(t.get(0)+"\n\ttyp wizyty: "+t.get(1)+"\n\tilosc wizyt: ");
+//        }
+//        em.close();
+}
+
+public static void showJointHQL(){
+    System.out.println("***\nHQL");
+    
+     EntityManager em = SESSION_FACTORY.createEntityManager();
+        List<Tuple> result = em.createQuery("SELECT t.name, COUNT(*) FROM Team t inner JOIN t.players as p GROUP BY t.name", Tuple.class).getResultList();
+        for(Tuple t : result){
+            System.out.println(t.get(0)+"\n\tilosc graczy: "+t.get(1));
         }
         em.close();
 }
-
 
 }
