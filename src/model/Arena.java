@@ -1,10 +1,11 @@
 package model;
 
+import java.io.Serializable;
 import javax.persistence.*;
 
 @Entity
 @Table(name = "arenas")
-public class Arena {
+public class Arena implements Serializable{
 
     public int getId() {
         return id;

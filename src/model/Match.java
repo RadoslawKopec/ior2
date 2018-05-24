@@ -1,6 +1,7 @@
 package model;
 
 
+import java.io.Serializable;
 import javax.persistence.*;
 import java.util.GregorianCalendar;
 import java.util.HashSet;
@@ -8,7 +9,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "matches")
-public class Match {
+public class Match implements Serializable{
 
     @OneToMany(mappedBy = "match")
     private Set<Statistic> statistics= new HashSet<>(5);
@@ -37,7 +38,7 @@ public class Match {
     }
 
     @OneToOne
-    @JoinColumn(name="match_id", foreignKey = @javax.persistence.ForeignKey(name = "FK_guests"))
+    @JoinColumn(name="guest_id", foreignKey = @javax.persistence.ForeignKey(name = "FK_guests"),insertable=false, updatable=false)
     private Team guests;
 
     public Team getGuests() {
@@ -57,11 +58,12 @@ public class Match {
     }
 
     @OneToOne
-    @JoinColumn(name="id", foreignKey = @javax.persistence.ForeignKey(name = "FK_host"))
+    @JoinColumn(name="host_id", foreignKey = @javax.persistence.ForeignKey(name = "FK_host"),insertable=false, updatable=false)
     private Team host;
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+    @Column(name = "match_id")
     private int id;
     private GregorianCalendar date;
     

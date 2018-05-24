@@ -1,13 +1,14 @@
 package model;
 
 
+import java.io.Serializable;
 import org.hibernate.annotations.Cascade;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "statistics")
-public class Statistic {
+public class Statistic implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "statistic_id")

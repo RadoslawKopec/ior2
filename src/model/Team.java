@@ -1,13 +1,14 @@
 package model;
 
 
+import java.io.Serializable;
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
 @Table(name = "teams")
-public class Team {
+public class Team implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

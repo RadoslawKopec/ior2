@@ -247,10 +247,12 @@ public class DBCreator {
     }
     
     public void create(){
+        createStatiscticTypes();
         createPositions();
         createBaterex();
         createTecza();
         createMatch();
+        
         Arena a1 = new Arena();
         a1.setName("GOSIR");
         a1.setAddress("kkkkkk");

@@ -1,6 +1,7 @@
 package model;
 
 
+import java.io.Serializable;
 import javax.persistence.*;
 
 /**
@@ -11,7 +12,7 @@ import javax.persistence.*;
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @Table(name="persons")
-public abstract class Person {
+public abstract class Person implements Serializable{
 
     private String name;
     private String lastname;

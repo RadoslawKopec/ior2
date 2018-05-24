@@ -3,7 +3,7 @@
 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="model.StatisticType" table="StatisticType">
+    <class name="model.StatisticsType" table="StatisticType">
         <id name="id" type="int">
             <column name="ID" />
             <generator class="native" />
